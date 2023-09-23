@@ -16,6 +16,11 @@ app.get("/", function(req, res){
     res.sendFile(__dirname + "/test.html")
 })
 
+
+app.get("/ScienceFiction", function(req, res){
+    res.send("hello")
+})
+
 app.listen(4000, function(){
     console.log("server is running on port 4000")
 })
